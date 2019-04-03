@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+}
+
+.navigation{
+    background:  url("hero.jpg") no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    
+}
+.slika-inner{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.top-bar{
+    display: flex;
+    
+    height: auto;
+    text-transform: uppercase;
+    color: white;
+    padding: 30px;
+}
+
+.logo{
+    flex:1;
+    
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    padding-left:20px;
+}
+.menu{
+    flex: 1;
+}
+.menu ul{
+    display:flex;
+    list-style-type: none;
+    flex-flow: row wrap;
+}
+.menu ul li{
+    flex: 3;
+    text-align: center;
+}
+.menu ul li a{
+    color:white;
+    text-decoration:none;
+}
+.top-bar a:hover{
+    color: tomato;
+}
+ .main{
+     margin-top: 150px;
+     text-align: center;
+     color: white;
+    
+ }
+ .main h1, .main h2{
+     margin-bottom: 30px;
+ }
+
+button{
+    background-color: #2196F3;
+    color: white;
+    padding: 15px;
+    border: none;
+    text-transform: uppercase;
+ }
+button:hover{
+     background-color: tomato;
+     cursor: pointer;
+ }
+
+.one{
+    text-align: center;
+    padding: 70px;
+    font-size: 20px;
+}
+.one h3{
+    padding-bottom: 20px;
+}
+.one hr{
+    width: 18%;
+    margin-left: 41%;
+    border-color: tomato;
+    margin-top: 10px; 
+    margin-bottom: 10px;  
+}
+
+.first{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+
+     
+}
+.prva{
+    width: 39%;
+    height: 300px;
+}
+.vtora{
+    width: 58%;
+    height: 300px;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.services{
+    background-color: #F1F1F1;
+}
+.font-awesome-pictures{
+    margin-top: 30px;
+    display: flex;
+    color: #2196F3;
+    font-size: 40px;
+    justify-content: space-around;
+
+}
+.font-awesome-pictures-tittle{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+.univer{
+    padding-right: 15px;
+}
+.font-awesome-pictures-paragraph{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: #696969;
+}
+input{
+    padding: 15px;
+    border: none;
+}
+.foot-picture{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+     color: white;
+}
+.foot-picture a{
+    margin-right: 20px;
+    color: white;
+   
+}
+.info-fot{
+    display: flex;
+    padding: 10px 50px 40px 50px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .one{
+        text-align: center;
+        padding: 50px;
+        font-size: 17px;
+    }
+    .prva{
+        width: 39%;
+        height: 200px;
+    }
+    .vtora{
+        width: 58%;
+        height: 200px;
+        
+    }
+}
